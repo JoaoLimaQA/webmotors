@@ -1,7 +1,6 @@
 target/
 .idea
-claro-flex-tests.iml
-src/test/resources/properties-from-pom.properties
+webmotors-tests.iml
 UTF-8
 .vscode
 .DS_Store

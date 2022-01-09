@@ -279,7 +279,14 @@ public abstract class BasePage {
         //element.click();
     }
 
-   public void clicarNoCentroDaTela() {
+   public void fecharPopupMeusFavoritos() {
+       Dimension size = getDriver().manage().window().getSize();
+       int x = size.width / 2;
+       TouchAction touchAction=new TouchAction(getDriver());
+       touchAction.tap(PointOption.point(x, 200)).perform();
+    }
+
+    public void clicarNoCentroDaTela() {
        Dimension size = getDriver().manage().window().getSize();
        int x = size.width / 2;
        int y = size.height / 2;

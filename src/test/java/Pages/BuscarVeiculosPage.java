@@ -61,7 +61,7 @@ public class BuscarVeiculosPage extends BasePage {
         selecionarCidade.click();
         esperarLoadWebmotors();
         input_pesquisa.sendKeys(city);
-       String cidade = city.toLowerCase();
+        String cidade = city.toLowerCase();
         String cidadee = cidade.substring(0, 1).toUpperCase() + cidade.substring(1);
         getDriver().findElementByXPath("//*[contains(@text,'"+cidadee+"')]").click();
         this.cidade = cidade;
@@ -105,7 +105,7 @@ public class BuscarVeiculosPage extends BasePage {
         gerarRelatorio("Ver Anúmcios","clicar em Ver Anúncios");
         clickText("Ver anúncios");
         esperarTextVisivel("Ver Favoritos",5);
-        clicarNoCentroDaTela();
+        fecharPopupMeusFavoritos();
 
 
     }

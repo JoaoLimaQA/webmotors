@@ -65,8 +65,8 @@ public abstract class TestBase extends AbstractTestNGCucumberTests {
                     capabilities.setCapability("autoGrantPermissions", true);
                     capabilities.setCapability("autoDismissAlerts", true);
                     capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 50000);
-                    capabilities.setCapability("noReset", false);
-                    capabilities.setCapability("disableWindowAnimation", true);
+                    //capabilities.setCapability("noReset", false);
+                    //capabilities.setCapability("disableWindowAnimation", true);
                     //capabilities.setCapability("app", new File("aplicativos/webmotors.apk").getAbsolutePath());
                      capabilities.setCapability("appPackage", ambiente);
                     capabilities.setCapability("appActivity", "hands.android.webmotors.legacy.view.activity.SplashActivity");
