@@ -20,4 +20,6 @@ Dashboard:
 
 Para rodar o projeto, existe uma classe chamada "Runner" aonde se pode rodar os testes por tags ou fluxo completo.
 Exemplos abaixo:
+
+
 ![ClassRunner](https://user-images.githubusercontent.com/66037072/148663989-a4ed5d52-f96c-4dc7-9a61-4143bbb383e5.jpeg)
