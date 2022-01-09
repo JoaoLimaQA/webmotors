@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<!--<suite name="Webmotors Suite" parallel = "none">-->
+<!--    <suite-files>-->
+<!--       <suite-file path="Suites/detalhesSuite.xml"/>-->
+
+<!--        &lt;!&ndash; Roda todos &ndash;&gt;-->
+<!--        <suite-file path="Suites/00allSuite.xml"/>-->
+<!--    </suite-files>-->
+<!--</suite>-->
+
+<!--TESTNG RODANDO PELO CUCUMBER-->
+<suite name="Test-method Suite">
+    <test name="Test-method test" group-by-instances="true">
+        <classes>
+            <class name="Tests.AnuncioDetalhesTest"/>
+
+        </classes>
+    </test>
+</suite>

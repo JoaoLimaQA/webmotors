@@ -1,0 +1,18 @@
+{
+  "usuarioDeProducao1": {
+    "cpf": "98291505691",
+    "email": "marliteste@gmail.com",
+    "cep": "",
+    "password": "claro122",
+    "phone": "11970671546",
+    "codigoSms": "123654"
+  },
+  "usuarioDeProducao2": {
+    "cpf": "54075540898",
+    "email": "sanityprod00@gmail.com",
+    "cep": "",
+    "password": "claro125",
+    "phone": "11940261642",
+    "codigoSms": "123654"
+  }
+}

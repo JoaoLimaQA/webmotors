@@ -1,0 +1,9 @@
+target/
+.idea
+claro-flex-tests.iml
+src/test/resources/properties-from-pom.properties
+UTF-8
+.vscode
+.DS_Store
+aplicativos/.DS_Store
+aplicativos/iOS/.DS_Store
